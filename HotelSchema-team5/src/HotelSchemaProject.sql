@@ -11,7 +11,6 @@ std_occupancy int not null,
 max_occupancy int not null,
 base_price decimal(65,2) not null);
 
-
 create table Guest (
 guest_id int auto_increment,
 guest_name varchar(25) not null,
